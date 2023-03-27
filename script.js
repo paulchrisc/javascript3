@@ -161,3 +161,72 @@
 
 // const amplitudeBug = tempAmplitudeBug(temperatures);
 // console.log(amplitudeBug);
+
+
+// Given an array of forecasted maximum temperatures, the thermometer displays a 
+// string with the given temperatures. Example: [17, 21, 23] will print "... 17ºC in 1 
+// days ... 21ºC in 2 days ... 23ºC in 3 days ..."
+// Your tasks:
+// 1. Create a function 'printForecast' which takes in an array 'arr' and logs a 
+// string like the above to the console. Try it with both test datasets.
+// 2. Use the problem-solving framework: Understand the problem and break it up 
+// into sub-problems!
+// Test data:
+// § Data 1: [17, 21, 23]
+// § Data 2: [12, 5, -5, 0, 4
+
+
+/* Understand the problem
+    how to print array 
+    add subsequent days
+
+    print array
+    add days increasing
+    add variables as forecast data
+*/
+
+/* function (temp forecast)
+
+    let i = start array from forecast; i < length of array ; i++
+    day start = 1;
+    let days = day ++
+    return "it will be 17 degrees in 1 day, will be 21 degrees in 2 days..."
+
+*/
+
+const tempForecast1= [17, 21, 23]
+const tempForecast2= [12, 5, -5, 0, 4]
+
+
+function forecast(temps){
+for(let i = 0; i < temps.length; i++){
+        return daily = temps[i];
+    }
+    // for(let days = 1; days < temps.length; days++){
+    //     return day(days[0])
+    // }
+}
+
+const temperatureForecast = forecast([tempForecast1])
+console.log(temperatureForecast[daily[i]])
+
+ // function tempAmplitudeBug(t1, t2){
+//     const temps = t1.concat(t2);
+
+//     let max = temps[0];
+// //     let min = temps[0];
+
+// //     for(let i = 0; i < temps.length; i++){
+// //         const curTemp = temps[i]
+// //         if (typeof curTemp !== 'number') continue;
+// //         if (curTemp > max) max = curTemp
+// //         if(curTemp < min) min = curTemp
+// //         }
+// //         console.log(max, min);
+// //         return max - min;
+
+// //     }
+
+// const amplitudeBug = tempAmplitudeBug(temperatures);
+// // console.log(amplitudeBug);
+
